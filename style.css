@@ -231,17 +231,19 @@ footer img{
     .section-2{
         grid-template-columns: 1fr 1fr 1fr;
     }
+    main{
+        padding: 5%;
+    }
     .left{
-        grid-column: 2;
+        grid-column: span 3;
+        display: inline-block;
     }
     .right{
-        grid-column: 2;
+        grid-column: span 3;
+        max-width: none;
     }
     .logo-col{
-        grid-template-columns: 1fr;
-    }
-    .owrflow-main-contianer{
-        flex-direction: column;
+        grid-template-columns: repeat(3,1fr);
     }
     /* footer */
     footer{
@@ -262,5 +264,16 @@ footer img{
     }
     .fa:not(:last-child){
         margin-right: 30px;
+    }
+    h1,p{
+        max-width: none;
+    }
+}
+@media (max-width:750px) {
+    .owrflow-main-contianer{
+        flex-direction: column;
+    }
+    .logo-col{
+        grid-template-columns   : 1fr;
     }
 }
