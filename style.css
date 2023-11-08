@@ -242,6 +242,7 @@ footer img{
     .right{
         grid-column: span 3;
         max-width: none;
+        padding:20px;
     }
     .logo-col{
         grid-template-columns: repeat(3,1fr);
@@ -275,9 +276,9 @@ footer img{
         flex-direction: column;
     }
     .logo-col{
-        grid-template-columns   : 1fr;
+        grid-template-columns: 1fr;
     }
     .right{
-        max-width: none;
+        padding:5%;
     }
 }
