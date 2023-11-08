@@ -277,4 +277,7 @@ footer img{
     .logo-col{
         grid-template-columns   : 1fr;
     }
+    .right{
+        max-width: none;
+    }
 }
