@@ -242,7 +242,6 @@ footer img{
     .right{
         grid-column: span 3;
         max-width: none;
-        padding:20px;
     }
     .logo-col{
         grid-template-columns: repeat(3,1fr);
